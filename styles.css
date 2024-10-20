@@ -1,0 +1,241 @@
+body{
+    font-family: Open Sans;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 70vh;
+    background-color: #3072f0;
+}
+
+/* .close-heading {margin: 0px; padding: 0px;}
+.close-heading p { margin: 0px; padding: 0px;}  */
+
+.h1-titulo
+{
+    margin: 0px;
+    padding-top: 20vh; 
+    font-size: 40pt;
+    color: white; 
+    text-align: center;
+}
+
+.slogan{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.logroscontainer{
+    display: flex;
+     justify-content: center;    
+    align-items: center;
+    margin-top: -7rem;
+    margin-bottom: 12rem;
+}
+
+ .logros{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr  ;
+    grid-template-rows: 1fr ;
+    border-radius: 20px; 
+    width: 70%;
+    background-color: white;
+}
+
+.blur {
+    box-shadow: inset 0 0 2px #fefefed1;
+     -webkit-backdrop-filter: saturate(200%) blur(30px); 
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: hsla(0,0%,100%,.8)!important
+}
+
+.shadow-blur {
+    box-shadow: inset 0 0 1px 1px hsla(0,0%,100%,.9),0 20px 27px 0 rgba(0,0,0,.05)!important
+}
+
+
+.item{
+      text-align: center ;
+      padding: 10px;
+}
+
+.h1-logros
+{
+    margin: 0px;
+    font-size: 40pt;
+    color: #3072f0;
+    text-align: center;
+} 
+
+h4 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 1.2;
+    color: #344767
+}
+
+.textologros{
+    margin-top: 15px;
+    margin-bottom: .5rem;
+    font-size: 11pt;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #344767;
+}
+
+hr{ 
+  
+    border:         none;
+    border-left:    1px solid hsla(40, 5%, 55%,0.5);
+    height:         20vh;
+    width:          1px;    
+    color: red;   
+}
+
+.problemas{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    height: 50vh;
+    margin-bottom: 12rem;
+}
+
+.itemproblemas{
+    text-align: center ;
+    background-color: #3072f0;
+    border-radius: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 1.5;
+    grid-row: span 2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.itemSubtitulosProb{
+    margin-top: 15px;
+    margin-bottom: .5rem;
+    font-size: 18pt;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+.soluciones{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin: 100px;
+}
+
+.solucionestitulo{
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.h2Texto{
+    font-size: 24pt;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #3072f0;
+}
+
+.imgSoluciones{
+    grid-row: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detSoluciones{
+    grid-row: span 3;
+}
+
+.itemSoluciones{
+    border-color: #3072f0;
+    border-style: groove;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* * { outline: solid 1px red; }
+* { line-height: 1; }     */    
+ 
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    margin-top: 75px;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px
+}
+
+.waves.waves-sm {
+    height: 50px;
+    min-height: 50px;
+}
+
+.waves.no-animation .moving-waves>use {
+    animation: none
+}
+
+.wave-rotate {
+    transform: rotate(180deg)
+}
+
+.moving-waves>use {
+    animation: f 40s cubic-bezier(.55,.5,.45,.5) infinite
+}
+
+.moving-waves>use:first-child {
+    animation-delay: -2s;
+    animation-duration: 11s
+}
+
+.moving-waves>use:nth-child(2) {
+    animation-delay: -4s;
+    animation-duration: 13s
+}
+
+.moving-waves>use:nth-child(3) {
+    animation-delay: -3s;
+    animation-duration: 15s
+}
+
+.moving-waves>use:nth-child(4) {
+    animation-delay: -4s;
+    animation-duration: 20s
+}
+
+.moving-waves>use:nth-child(5) {
+    animation-delay: -4s;
+    animation-duration: 25s
+}
+
+.moving-waves>use:nth-child(6) {
+    animation-delay: -3s;
+    animation-duration: 30s
+}
